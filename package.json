@@ -1,0 +1,22 @@
+{
+  "name": "jksopensource",
+  "version": "1.0.0",
+  "description": "open source practice",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackson-jiang/jksopensource.git"
+  },
+  "author": "jackson.jiang <jackson.jiang@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackson-jiang/jksopensource/issues"
+  },
+  "homepage": "https://github.com/jackson-jiang/jksopensource#readme",
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}
