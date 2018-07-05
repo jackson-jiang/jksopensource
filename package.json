@@ -14,6 +14,9 @@
     "travis-deploy-once": "travis-deploy-once"
   },
   "config": {
+    "ghooks": {
+      "pre-commit": "npm t && npm run check-coverage"
+    },
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
@@ -37,6 +40,7 @@
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-plugin-import": "2.13.0",
+    "ghooks": "2.0.4",
     "mocha": "5.2.0",
     "nyc": "12.0.2",
     "semantic-release": "^15.6.3",
