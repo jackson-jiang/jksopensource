@@ -1,20 +1,22 @@
 {
   "name": "jksopensource",
-  "version": "1.2.0",
+  "version": "0.0.0-development",
   "description": "open source practice",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog" 
+      "path": "node_modules/cz-conventional-changelog"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackson-jiang/jksopensource.git"
+    "url": "https://github.com/jackson-jiang/jksopensource.git"
   },
   "author": "jackson.jiang <jackson.jiang@outlook.com>",
   "license": "MIT",
@@ -24,5 +26,9 @@
   "homepage": "https://github.com/jackson-jiang/jksopensource#readme",
   "dependencies": {
     "lodash": "4.17.10"
+  },
+  "devDependencies": {
+    "travis-deploy-once": "^5.0.1",
+    "semantic-release": "^15.6.3"
   }
 }
