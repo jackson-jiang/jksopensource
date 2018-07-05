@@ -1,9 +1,10 @@
-var teams = require('./teams.json');
-var _ = require('lodash');
+const _ = require('lodash');
+const teams = require('./teams.json');
+
 module.exports = {
   all: _.clone(teams),
-  champion: function () {
-    const i = Math.floor(Math.random() * teams.length)
+  champion() {
+    const i = Math.floor(Math.random() * teams.length);
     return teams[i];
-  }
-}
+  },
+};
