@@ -1,5 +1,5 @@
-var fifa = require('./index.js')
-var expect =require('chai').expect;
+import fifa from './index'
+import { expect } from 'chai';
 
 describe('jks-opensource', function() {
   describe('all', function() {
